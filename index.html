@@ -7,6 +7,78 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <main>
+      <section class="left_side">
+        <div class="banner">
+          <img src="/images/odin-logo.png" alt="odin-logo" />
+          <span class="logo-name">Odin</span>
+        </div>
+        <p class="attribution">
+          Photo by
+          <a
+            href="https://unsplash.com/@haliewestphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            >Halie West</a
+          >
+          on <a href="http://unsplash.com">Unsplash</a>
+        </p>
+      </section>
+
+      <section class="right_side">
+        <header>
+          <p>
+            This is not a real online service! You know you need something like
+            this in our life to help you realize your deepest dreams.
+          </p>
+          <p>Sign up <i>now </i> to get started!</p>
+          <p class="cta">You <i>know</i> you want to.</p>
+        </header>
+        <form action="#" class="form">
+          <legend>Let's do this!</legend>
+          <div class="form-cells">
+            <div class="cell">
+              <label for="first-name">First name</label>
+              <input type="text" name="first-name" id="first-name" required />
+            </div>
+            <div class="cell">
+              <label for="last-name">Last name</label>
+              <input type="text" name="last-name" id="last-name" />
+            </div>
+            <div class="cell">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" required />
+            </div>
+            <div class="cell">
+              <label for="phone-number">Phone number</label>
+              <input
+                type="text"
+                name="phone-number"
+                id="phone-number"
+                minlength="9"
+                maxlength="9"
+                required
+              />
+            </div>
+            <div class="cell">
+              <label for="password">Password</label>
+              <input type="password" name="password" id="password" required />
+            </div>
+            <div class="cell">
+              <label for="confirm-password">Confirm password</label>
+              <input
+                type="password"
+                name="confirm-password"
+                id="confirm-password"
+                required
+              />
+            </div>
+          </div>
+        </form>
+        <button type="submit">Create Account</button>
+        <p class="login-prompt">
+          Already have an account? <a href="#" class="login-link">Log in</a>
+        </p>
+      </section>
+    </main>
     <script src="script.js"></script>
   </body>
 </html>
