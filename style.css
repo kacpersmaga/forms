@@ -15,7 +15,7 @@ main {
 }
 
 .left_side {
-  background-image: url(/images/leaves.jpg);
+  background-image: url(./images/leaves.jpg);
   background-size: cover;
   flex: 3;
   display: flex;
